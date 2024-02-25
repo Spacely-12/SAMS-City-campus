@@ -1,5 +1,23 @@
 {
+    "name": "sams/sams",
+    "description": "a project work app",
+    "type": "laravel",
     "require": {
-        "monolog/monolog": "2.0.*"
-    }
+        "laravel/framework": "^10.45",
+        "laravel/laravel": "^10.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sams\\Sams\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salawudeen",
+            "email": "mohammedsalawudeen99@gmail.com"
+        }
+    ]
 }
